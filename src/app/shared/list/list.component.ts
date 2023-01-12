@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
+
+
   nameList : string[] = ["Afred","Roland","Charles","Renard","Afr"]
+  
   constructor() { }
 
   ngOnInit(): void {
